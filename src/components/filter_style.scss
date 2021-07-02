@@ -26,3 +26,36 @@
     border-top-width: 30px;
     border-top: solid 2px blue;
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 550px;
+        margin-left: 45px;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 670px;
+        margin-left: 35px;
+        
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 740px;
+        margin-left: 45px;
+        
+    }
+}
+
+

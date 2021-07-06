@@ -3,7 +3,7 @@ import logo from '../img/logo.png';
 import '../components/Header_style.scss'
 const Header =()=>{
     return(
-        <div>
+        <div>/*Убрать*/
              <div className='wrapper'>
                  <div className='header__inner'>
                      <div className = 'header__logo'>

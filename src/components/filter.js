@@ -1,12 +1,12 @@
 import React from 'react'
-import '../components/filter_style.scss'
+import '../components/filter_style.scss' /*Ренейм файла*/
+/*Интеры*/
 
-
-const Filter = ()=>{
+const Filter = ()=>{ /*В одну строку 5 и 24*/
     return(
-        <div>
+        <div>/*Класснейм filter сделать для вложенности*/
             <ul className='filter__list'>
-                <li className='filter__item'>
+                <li className='filter__item'>/*Компонентно разбить*/
                   <a className='filter__link' href='/'> All</a>  
                   </li>   
                 <li className='filter__item'>

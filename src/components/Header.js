@@ -1,10 +1,10 @@
 import React from 'react'
 import logo from '../img/logo.png';
-import '../components/Header_style.scss'
-const Header =()=>{
+import '../components/Header_style.scss' /*Нейминг поменять*/
+const Header =()=>{ /*4 и 23 строка объеденить в одну и порефакторить пробелы*/
     return(
         <div>/*Убрать*/
-             <div className='wrapper'>
+             <div className='wrapper'> /*Попытаться избавится от большего кол-ва дивов*/
                  <div className='header__inner'>
                      <div className = 'header__logo'>
                          <a className='header__logo-img' href='/'>

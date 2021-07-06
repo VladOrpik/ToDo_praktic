@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .wrapper{
-    
+    /*Убрать все интеры ненужные*/
     margin: 0 auto;
 }
+ /*сделать див с класснеймом header и в него использовать вложение header__inner и тд*/
+
 .header__inner {
     display: flex;
     margin-top: 20px;

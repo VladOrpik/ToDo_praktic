@@ -1,14 +1,12 @@
 import './App.css';
-import Header from './components/Header';
-import Filter from './components/filter';
-import TaskCreate from './components/taskCreate';
+import {Header} from '../src/module/header.jsx';
+import {MainContent} from '../src/module/mainContent.jsx';
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Filter/>
-     <TaskCreate/>
+      <Header/>
+      <MainContent/>
     </div>
   );
 }

@@ -1,11 +1,8 @@
 import React from 'react'
-import "../components/taskCreate.scss"
+import "../mainContentComponents/task-create.scss"
 
-
-const TaskCreate =()=>{
-   
-
-    return(
+export const TaskCreate = () => {
+    return( 
         <div>
             <div className='form'>
             <label className='label__create'>New task</label>
@@ -17,7 +14,3 @@ const TaskCreate =()=>{
         </div>
     )
 }
-
-
-
-export default TaskCreate;

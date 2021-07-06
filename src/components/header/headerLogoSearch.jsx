@@ -1,11 +1,10 @@
 import React from 'react'
-import logo from '../img/logo.png';
-import '../components/Header_style.scss'
-const Header =()=>{
+import logo from '../../assets/img/logo.png';
+import '../header/header-logo-search.scss'
+
+ export const HeaderLogoSearch = () => {
     return(
-        <div>
-             <div className='wrapper'>
-                 <div className='header__inner'>
+                 <div className='header'>
                      <div className = 'header__logo'>
                          <a className='header__logo-img' href='/'>
                              <img className='logo' src={logo} alt="logo"/>
@@ -15,10 +14,7 @@ const Header =()=>{
                          <input type='text' className='header__input' placeholder='Search task for to do'/>
                      </div>
                  </div>
-             </div>
-        </div>
     )
 }
 
-export default Header;
 

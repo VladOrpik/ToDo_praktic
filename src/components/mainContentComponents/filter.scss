@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .filter__list{
     display: flex;
     list-style-type: none;
     border-top: solid 2px silver;
     width: 692px;
     margin-left: 75px;
-    
 }
 .filter__item{
     padding-top: 16px;
     margin-right: 175px;
     width: 175px;
     text-align: center;
+
+    &:active{
+    border-top-width: 30px;
+    border-top: solid 2px blue;
+    }
 }
 .filter__link{
     text-decoration: none;
@@ -22,27 +27,32 @@
     line-height: 19px;
     color: black;
 }
-.filter__item:active{
-    border-top-width: 30px;
-    border-top: solid 2px blue;
-}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 650px){
     .filter__list{
         display: flex;
         list-style-type: none;
         border-top: solid 2px silver;
-        width: 550px;
+        width: 317px;
+        margin-left: 5px;
+    }
+}
+@media  (max-width: 767px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 517px;
         margin-left: 45px;
         
     }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991) {
     .filter__list{
         display: flex;
         list-style-type: none;
         border-top: solid 2px silver;
-        width: 670px;
+        width: 690px;
         margin-left: 35px;
         
     }

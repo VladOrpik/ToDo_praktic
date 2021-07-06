@@ -1,8 +1,7 @@
 import React from 'react'
-import '../components/filter_style.scss'
+import '../mainContentComponents/filter.scss'
 
-
-const Filter = ()=>{
+ export const Filter = () => {
     return(
         <div>
             <ul className='filter__list'>
@@ -19,6 +18,3 @@ const Filter = ()=>{
         </div>
     )
 }
-
-
-export default Filter;

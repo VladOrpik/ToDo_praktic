@@ -35,22 +35,22 @@
     color: #FFFFFF;
 
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767px) {
     .create_input{
-        width: 557px;
+        width: 523px;
         height: 90px;
     }
     .button__add{
         width: 141px;
         height: 36px;
         background-color: #2F80ED;
-        margin-left: 497px;
+        margin-left: 463px;
         margin-top: 11px;
     }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .create_input{
-        width: 667px;
+        width: 629px;
         height: 90px;
     }
     .button__add{

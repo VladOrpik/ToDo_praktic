@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-.header{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 25px;
-
-    .header__search{
+.header__search{
     margin-left: 20px;  
-    width: 111px;
-}   
+    width: 111px;}
 
 .header__input{
+    margin-top: 20px;
     width: 582px;
     height: 40px;
     background-color: #F6F6F6;
@@ -20,7 +13,7 @@
     
     &::placeholder{
         
-        font:{
+        font : {
         font-size: 16px;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
@@ -41,7 +34,6 @@
     &:focus{
         background-image:none ;
     }
-}
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .header__input{
@@ -84,7 +76,7 @@
 }
 @media (max-width: 480px) {
     .header__input{
-        max-width: 210px;
+        max-width: 170px;
     }
     .header__search{
         margin-left: 15px;

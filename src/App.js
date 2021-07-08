@@ -1,6 +1,6 @@
 import './App.css';
-import {Header} from '../src/module/header.jsx';
-import {MainContent} from '../src/module/mainContent.jsx';
+import {Header} from '../src/module/header/header.jsx'
+import {MainContent} from '../src/module/mainContent/mainContent.jsx'
 
 function App() {
   return (

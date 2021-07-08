@@ -1,5 +1,5 @@
 import React from 'react'
-import "../mainContentComponents/task-create.scss"
+import '../taskCreate/task-create.scss'
 
 export const TaskCreate = () => {
     return( 

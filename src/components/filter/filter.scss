@@ -1,32 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-.filter__list{
-    display: flex;
-    list-style-type: none;
-    border-top: solid 2px silver;
-    width: 692px;
-    margin-left: 75px;
-}
-.filter__item{
-    padding-top: 16px;
-    margin-right: 175px;
-    width: 175px;
-    text-align: center;
 
-    &:active{
-    border-top-width: 30px;
-    border-top: solid 2px blue;
-    }
+.qwerty{
+    display: flex;
+    width: 757px;
+    border-top: solid 1px silver;
+    margin-left: 75px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.filter__link{
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
-}
+
 
 @media (max-width: 650px){
     .filter__list{

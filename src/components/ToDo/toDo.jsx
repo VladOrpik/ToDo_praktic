@@ -1,13 +1,12 @@
 import React from 'react'
 
 
-export const ToDo = (todo,toggleTask) =>{
+export const ToDo = ({task}) =>{
     return(
-        <div key= {todo.id} className="zxc" >
+        <div style={{display:'flex', backgroundColor:'red', height:'200px'}}  className="zxc" >
             <div >
-                {todo.task}
+                {task}
             </div>
-            <div></div>
         </div>
     )
 } 

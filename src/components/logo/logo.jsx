@@ -4,8 +4,8 @@ import '../logo/logo.scss'
 
 export const Logo = () =>{
     return(
-        <div className = 'header__logo'>
-            <a className='header__logo-img' href='/'>
+        <div className = 'logo'>
+            <a className='logo-img' href='/'>
                 <img className='logo' src={logo} alt="logo"/>
              </a>
         </div>

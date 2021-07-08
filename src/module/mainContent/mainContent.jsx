@@ -9,25 +9,17 @@ export const MainContent = () => {
     const handleToggle = ()=>{
         
     }
-    const addInput = (useInput) =>{
-            if(useInput){
-                const newItem = {
-                    ad: Math.random().toString(36).substr(2,9),
-                    task: useInput,
-                    complete: false
-                }
-                setTod([...tod,newItem])
-            }
-    }
+    const addTask = (newItem) => setTod([...tod, newItem])
+    
     return(
         <div>
         <Filter/>
-        <TaskCreate addInput={addInput} />
-        {tod.map((todo)=>{
+        <TaskCreate addTask={addTask} />
+        {tod.map((task)=>{
             return(
                 <ToDo
-                todo={todo}
-                key={todo.id}
+                task={task}
+                
                 toggleTask={handleToggle} />
             )
         })}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.qwerty{
+    display: flex;
+    width: 757px;
+    border-top: solid 1px silver;
+    margin-left: 75px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 650px){
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 317px;
+        margin-left: 5px;
+    }
+}
+@media  (max-width: 767px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 517px;
+        margin-left: 45px;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 991) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 690px;
+        margin-left: 35px;
+        
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .filter__list{
+        display: flex;
+        list-style-type: none;
+        border-top: solid 2px silver;
+        width: 740px;
+        margin-left: 45px;
+        
+    }
+}
+
+

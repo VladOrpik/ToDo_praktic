@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.taskCteateComponent{
+    margin-left: 73px;
+    
+}
+.create_input{
+    width: 727px;
+    height: 90px;
+}
+.label__create{
+    width: 53px;
+    height: 16px;
+    font-family: 'Salesforce Sans';
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 73px;
+    color: #706E6B;
+}
+.button__add{
+    width: 171px;
+    height: 36px;
+    background-color: #2F80ED;
+    margin-left: 637px;
+    margin-top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+@media (max-width: 767px) {
+    .create_input{
+        width: 523px;
+        height: 90px;
+    }
+    .button__add{
+        width: 141px;
+        height: 36px;
+        background-color: #2F80ED;
+        margin-left: 463px;
+        margin-top: 11px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .create_input{
+        width: 629px;
+        height: 90px;
+    }
+    .button__add{
+        width: 151px;
+        height: 36px;
+        background-color: #2F80ED;
+        margin-left: 597px;
+        margin-top: 11px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .create_input{
+        width: 744px;
+        height: 90px;
+    }
+    .button__add{
+        width: 141px;
+        height: 36px;
+        background-color: #2F80ED;
+        margin-left: 684px;
+        margin-top: 11px;
+    }
+}
